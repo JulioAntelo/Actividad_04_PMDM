@@ -4,7 +4,7 @@
     <string name="txtMujer">MUJER</string>
 
     <string name="txtAltura">ALTURA</string>
-    <string name="TipoAltura">cm</string>
+    <string name="TipoAltura">120cm</string>
     <string name="ValAltura">120</string>
 
     <string name="txtPeso">PESO</string>
@@ -12,8 +12,10 @@
     <string name="BtnMenos1">-</string>
     <string name="BtnMas1">+</string>
 
-    <string name="txtEdad">PESO</string>
-    <string name="ValEdad">60</string>
+    <string name="txtEdad">EDAD</string>
+    <string name="ValEdad">30</string>
     <string name="BtnMenos2">-</string>
     <string name="BtnMas2">+</string>
+
+    <string name="calcular">CALCULAR</string>
 </resources>
