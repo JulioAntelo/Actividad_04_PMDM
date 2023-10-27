@@ -9,7 +9,7 @@ import com.google.android.material.slider.RangeSlider
 class Activity_imc : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_imc)
         val slider = findViewById<RangeSlider>(R.id.slider)
         val sliderTextview = findViewById<TextView>(R.id.sliderTextView)
 
