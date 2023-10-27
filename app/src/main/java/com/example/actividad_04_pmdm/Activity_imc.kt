@@ -6,7 +6,7 @@ import android.widget.TextView
 import com.google.android.material.slider.RangeSlider
 
 
-class MainActivity : AppCompatActivity() {
+class Activity_imc : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
