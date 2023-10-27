@@ -18,4 +18,13 @@
     <string name="BtnMas2">+</string>
 
     <string name="calcular">CALCULAR</string>
+
+
+    <string name="barratitulo">MENU APP</string>
+
+    <string name="Calc1">Calculadora1</string>
+    <string name="Calc2">Calculadora2</string>
+    <string name="Calc3">Calculadora3</string>
+    <string name="imc">IMC</string>
+
 </resources>

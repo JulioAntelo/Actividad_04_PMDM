@@ -7,6 +7,8 @@ class Main_Activity:AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_imc)
+        this.setTitle(R.string.barratitulo)
     }
+
 
 }
