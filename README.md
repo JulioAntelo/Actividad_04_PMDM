@@ -1,10 +1,5 @@
 # Actividad_04_PMDM
 
-Nombres de las variables de los botones y textos:
-
-TextView1 : texto1
-
-
 Colores para la aplicación:
 
 Tonalidades de grises oscuros.

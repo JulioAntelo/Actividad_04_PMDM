@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/fondomenu"
+    tools:context=".Main_Activity">
+
+
+    <LinearLayout
+        android:id="@+id/layoutprimero"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        app:layout_constraintTop_toBottomOf="@android:id/accessibilityActionContextClick"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/calc1"
+            android:textColor="@color/textoco"
+            android:text="@string/Calc1"
+            android:fontFamily="serif"
+            android:backgroundTint="@color/botoncolor"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="150dp"
+            android:layout_width="150dp"
+            android:layout_height="100dp">
+        </Button>
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="match_parent">
+        </Space>
+
+        <Button
+            android:id="@+id/calc2"
+            android:textColor="@color/textoco"
+            android:text="@string/Calc2"
+            android:fontFamily="serif"
+            android:backgroundTint="@color/botoncolor"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="150dp"
+            android:layout_width="150dp"
+            android:layout_height="100dp">
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutsegundo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintTop_toBottomOf="@id/layoutprimero"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/calc3"
+            android:textColor="@color/textoco"
+            android:text="@string/Calc3"
+            android:fontFamily="serif"
+            android:backgroundTint="@color/botoncolor"
+            android:layout_marginLeft="50dp"
+            android:layout_width="150dp"
+            android:layout_height="100dp">
+        </Button>
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="match_parent">
+        </Space>
+
+        <Button
+            android:id="@+id/imc"
+            android:textColor="@color/textoco"
+            android:text="@string/imc"
+            android:fontFamily="serif"
+            android:backgroundTint="@color/botoncolor"
+            android:layout_marginRight="50dp"
+            android:layout_width="150dp"
+            android:layout_height="100dp">
+        </Button>
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

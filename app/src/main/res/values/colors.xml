@@ -2,4 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="fondomenu">#352a3d</color>
+    <color name="textoco">#040f09</color>
+    <color name="botoncolor">#a16808</color>
 </resources>

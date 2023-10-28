@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Actividad_04_PMDM"
         tools:targetApi="31" >
         <activity
-            android:name=".MainActivity"
+            android:name=".Activity_imc"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
