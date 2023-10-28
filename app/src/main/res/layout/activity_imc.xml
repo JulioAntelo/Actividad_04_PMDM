@@ -166,6 +166,7 @@
             >
 
             <TextView
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -174,6 +175,7 @@
                 android:textSize="11sp"/>
 
             <TextView
+                android:id="@+id/pesoTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -188,7 +190,7 @@
                 android:orientation="horizontal">
 
                 <com.google.android.material.floatingactionbutton.FloatingActionButton
-                    android:id="@+id/edadMinus"
+                    android:id="@+id/pesoMinus"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
@@ -196,7 +198,7 @@
                     android:importantForAccessibility="no" />
 
                 <com.google.android.material.floatingactionbutton.FloatingActionButton
-                    android:id="@+id/edadPlus"
+                    android:id="@+id/pesoPlus"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
@@ -228,6 +230,7 @@
                 android:textSize="11sp"/>
 
             <TextView
+                android:id="@+id/edadTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -242,7 +245,7 @@
                 android:orientation="horizontal">
 
                 <com.google.android.material.floatingactionbutton.FloatingActionButton
-                    android:id="@+id/pesoMinus"
+                    android:id="@+id/edadMinus"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -251,7 +254,7 @@
                     android:importantForAccessibility="no" />
 
                 <com.google.android.material.floatingactionbutton.FloatingActionButton
-                    android:id="@+id/pesoPlus"
+                    android:id="@+id/edadPlus"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
