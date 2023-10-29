@@ -27,4 +27,7 @@
     <string name="Calc3">Calculadora3</string>
     <string name="imc">IMC</string>
 
+    <string name="resultado">Tu Indice de Masa Corparal es :</string>
+    <string name="imcVolver">Volver</string>
+
 </resources>
