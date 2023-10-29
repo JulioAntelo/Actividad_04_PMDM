@@ -34,4 +34,7 @@
 
 
 
+    <string name="resultado">Tu Indice de Masa Corparal es :</string>
+    <string name="imcVolver">Volver</string>
+
 </resources>
