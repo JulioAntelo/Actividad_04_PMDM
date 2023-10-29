@@ -2,7 +2,13 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="fondomenu">#352a3d</color>
-    <color name="textoco">#040f09</color>
+    <color name="fondomenu">#24262b</color>
+    <color name="textoco">#e8e8e8</color>
     <color name="botoncolor">#a16808</color>
+
+   COLORES CALCULADORA ADRI
+
+    <color name="fondo">#343d3f</color>
+    <color name="barra">#005bf3</color>
+
 </resources>
