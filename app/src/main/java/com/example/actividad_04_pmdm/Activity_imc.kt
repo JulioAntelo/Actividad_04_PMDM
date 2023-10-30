@@ -23,9 +23,7 @@ class Activity_imc : AppCompatActivity() {
     var resultado = 0F
 
     //FUNCION QUE FINALIZA LA ACTIVIDAD
-    fun volveratras(){
-        finish()
-    }
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -64,7 +62,7 @@ class Activity_imc : AppCompatActivity() {
         //AL PULSARSE EL BOTON SE LLAMA A LA FUNCION QUE FINALIZA LA ACTIVIDAD
 
         btnvolver.setOnClickListener {
-            volveratras()
+            onBackPressed()
         }
 
     }
