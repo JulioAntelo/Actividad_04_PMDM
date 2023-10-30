@@ -29,6 +29,18 @@ class Activity_julio : AppCompatActivity() {
 
         initComponents()
         initListeners()
+
+        fun volveratras(){
+            finish()
+        }
+
+        val btnvolver:Button=findViewById(R.id.volvercalc3)
+
+        btnvolver.setOnClickListener {
+            volveratras()
+        }
+
+
     }
 
 

@@ -228,13 +228,15 @@
         app:layout_constraintTop_toBottomOf="@+id/button6" />
 
     <Button
+        android:id="@+id/volvercalc3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/volver"
         app:layout_constraintEnd_toStartOf="@+id/buttonDivision"
         app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toEndOf="parent"
-        tools:layout_editor_absoluteY="592dp">
+        tools:layout_editor_absoluteY="592dp"
+        tools:ignore="MissingConstraints">
     </Button>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
