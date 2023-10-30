@@ -22,6 +22,11 @@ class Activity_imc : AppCompatActivity() {
     var altura = 120F
     var resultado = 0F
 
+    //FUNCION QUE FINALIZA LA ACTIVIDAD
+    fun volveratras(){
+        finish()
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_imc)
@@ -30,6 +35,7 @@ class Activity_imc : AppCompatActivity() {
         val buttonCalc = findViewById<Button>(R.id.calcular)
         val heightTextView = findViewById<TextView>(R.id.sliderTextView)
         val slider = findViewById<RangeSlider>(R.id.slider)
+        val btnvolver:Button=findViewById(R.id.volverdeimc)
 
         //Sets the values for the RangeSlider
         slider.valueTo = 220F
@@ -55,7 +61,14 @@ class Activity_imc : AppCompatActivity() {
             newActivity()
         }
 
+        //AL PULSARSE EL BOTON SE LLAMA A LA FUNCION QUE FINALIZA LA ACTIVIDAD
+
+        btnvolver.setOnClickListener {
+            volveratras()
+        }
+
     }
+
 
 
     /**

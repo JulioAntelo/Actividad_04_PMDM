@@ -27,12 +27,18 @@
     <string name="Calc3">Calculadora3</string>
     <string name="imc">IMC</string>
     <string name="salir">TERMINAR</string>
+    <string name="volver">VOLVER</string>
 
 
     STRINGS CALCULADORA ADRI
 
+    STRINGS CALCULADORA JULIO
 
-
+    <string name="app_name_JULIO">CalculadoraJulio</string>
+    <string name="texto1">%1$s</string>
+    <string name="texto2">%1$s</string>
+    <string name="buttonComa">.</string>
+    <string name="buttonDivision">/</string>
 
     <string name="resultado">Tu Indice de Masa Corparal es :</string>
     <string name="imcVolver">Volver</string>

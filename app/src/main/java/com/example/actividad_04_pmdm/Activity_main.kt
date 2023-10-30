@@ -21,19 +21,23 @@ class Activity_main : AppCompatActivity() {
          */
 
         fun IrAactividad(actividad:Activity){
-            var intento=Intent(this,actividad::class.java)
+            val intento=Intent(this,actividad::class.java)
             startActivity(intento)
         }
 
         //Funcion para cerrar la app
+
         fun cerrarApp(){
             finish()
         }
 
         //Botones que al ser pulsados llamaran a las funciones correspondientes
-        var botonIMC:Button=findViewById(R.id.imc)
-        var botonCALC1:Button=findViewById(R.id.calc1)
-        var botoncerrar:Button=findViewById(R.id.botonsalir)
+
+        val botonIMC:Button=findViewById(R.id.imc)
+        val botonCALC1:Button=findViewById(R.id.calc1)
+        val botonCALC2:Button=findViewById(R.id.calc2)
+        val botonCALC3:Button=findViewById(R.id.calc3)
+        val botoncerrar:Button=findViewById(R.id.botonsalir)
 
 
         //Funcion que contiene el codigo de cada boton
@@ -45,11 +49,18 @@ class Activity_main : AppCompatActivity() {
             botonCALC1.setOnClickListener {
                 IrAactividad(Activity_adrian())
             }
+            botonCALC2.setOnClickListener{
+                IrAactividad(Activity_moise())
+            }
+            botonCALC3.setOnClickListener {
+                IrAactividad(Activity_julio())
+            }
             botoncerrar.setOnClickListener {
                 cerrarApp()
             }
         }
 
+        //SE LLAMA A LA FUNCION
         presionadoboton()
 
     }

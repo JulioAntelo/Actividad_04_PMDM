@@ -11,6 +11,11 @@ import android.widget.Toast
 class Activity_adrian : AppCompatActivity() {
 
 
+    //FUNCION QUE FINALIZA LA ACTIVIDAD ACTUAL
+    fun volveratras(){
+        finish()
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_adri)
@@ -53,16 +58,18 @@ class Activity_adrian : AppCompatActivity() {
         var mostrar = findViewById<TextView>(R.id.mostrar)
 
         //Boton que servira para volver atras
-        var btnvolver:Button=findViewById(R.id.volver)
 
+        var btnvolver:Button=findViewById(R.id.volveratras)
+
+
+        //Al hacerse click en el boton volver, se llama a la funcion 'volveratras' para volver al menu principal
+
+        btnvolver.setOnClickListener { volveratras() }
 
 
         /**
          * Funcion que restablece todos los valores a su inicio, menos el resultado.
          */
-
-
-        //Al hacerse click en el boton volver, se llama a la funcion 'volveratras' para volver al menu principal
 
 
         fun restablecimientodevalores() {
@@ -82,11 +89,6 @@ class Activity_adrian : AppCompatActivity() {
             calcu.operacion=""
         }
 
-        //Funcion que vuelve a la actividad que contiene el men
-
-        btnvolver.setOnClickListener {
-
-        }
 
 
         /***
@@ -290,6 +292,7 @@ class Activity_adrian : AppCompatActivity() {
                             mostrar.setText("")
                             calcu.numactual+="4"
                             calcularnum1onum2()
+                            mostrar.setText(calcu.numactual)
                         }
                         cinco.setOnClickListener {
                             restablecimientodevalores()
@@ -298,6 +301,7 @@ class Activity_adrian : AppCompatActivity() {
                             mostrar.setText("")
                             calcu.numactual+="5"
                             calcularnum1onum2()
+                            mostrar.setText(calcu.numactual)
                         }
                         seis.setOnClickListener {
                             restablecimientodevalores()
@@ -306,6 +310,7 @@ class Activity_adrian : AppCompatActivity() {
                             mostrar.setText("")
                             calcu.numactual+="6"
                             calcularnum1onum2()
+                            mostrar.setText(calcu.numactual)
                         }
                         siete.setOnClickListener {
                             restablecimientodevalores()
@@ -314,6 +319,7 @@ class Activity_adrian : AppCompatActivity() {
                             mostrar.setText("")
                             calcu.numactual+="7"
                             calcularnum1onum2()
+                            mostrar.setText(calcu.numactual)
                         }
                         ocho.setOnClickListener {
                             restablecimientodevalores()
@@ -322,6 +328,7 @@ class Activity_adrian : AppCompatActivity() {
                             mostrar.setText("")
                             calcu.numactual+="8"
                             calcularnum1onum2()
+                            mostrar.setText(calcu.numactual)
                         }
                         nueve.setOnClickListener {
                             restablecimientodevalores()
@@ -330,6 +337,7 @@ class Activity_adrian : AppCompatActivity() {
                             mostrar.setText("")
                             calcu.numactual+="9"
                             calcularnum1onum2()
+                            mostrar.setText(calcu.numactual)
                         }
                     }
                     else{
