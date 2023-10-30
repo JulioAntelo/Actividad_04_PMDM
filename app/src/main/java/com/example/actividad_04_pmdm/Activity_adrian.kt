@@ -11,11 +11,6 @@ import android.widget.Toast
 class Activity_adrian : AppCompatActivity() {
 
 
-    //FUNCION QUE FINALIZA LA ACTIVIDAD ACTUAL
-    fun volveratras(){
-        finish()
-    }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_adri)
@@ -62,9 +57,9 @@ class Activity_adrian : AppCompatActivity() {
         var btnvolver:Button=findViewById(R.id.volveratras)
 
 
-        //Al hacerse click en el boton volver, se llama a la funcion 'volveratras' para volver al menu principal
+        //Al hacerse click en el boton volver, se llama a la funcion 'onbackpressed' para volver al menu principal
 
-        btnvolver.setOnClickListener { volveratras() }
+        btnvolver.setOnClickListener { onBackPressed() }
 
 
         /**

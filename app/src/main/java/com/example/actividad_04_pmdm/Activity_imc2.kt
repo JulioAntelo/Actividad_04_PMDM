@@ -57,10 +57,7 @@ class Activity_imc2 : AppCompatActivity() {
     }
 
     fun newActivity(){
-        //function that receives the name of the Activity to open as a parameter
-        val intent = Intent(applicationContext,Activity_imc::class.java)
-        //Starts the new activity
-        startActivity(intent)
+        onBackPressed()
     }
 }
 
