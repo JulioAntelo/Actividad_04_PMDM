@@ -85,6 +85,7 @@ class Activity_moise : AppCompatActivity() {
                 //Clears the variables in the logic class as well as everything being displayed.
                 displayedNumbers = ""
                 logic.clear()
+                checkdecimal = true
             }
             "=" ->{
                 //If no button has been pressed, an error message is Displayed using Toast.
@@ -99,7 +100,11 @@ class Activity_moise : AppCompatActivity() {
             }
             //Deletes the last character that's being displayed.
             "Del"->{
+                if(displayedNumbers[displayedNumbers.length-1].toString() == "."){
+                    checkdecimal = true
+                }
                 displayedNumbers = displayedNumbers.dropLast(1)
+
             }
             "."->{
                 if(checkdecimal){
